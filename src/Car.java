@@ -1,3 +1,9 @@
 public interface Car {
-    void assemble(); // Método que toda implementação de Car deve ter
+    void assemble();
+
+    void displaySpecs();
+
+    int getMaxSpeed();
+
+    String getEngineType();
 }
